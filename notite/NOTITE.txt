@@ -1,0 +1,29 @@
+		Joc cu planete
+
+	Sus o bara de navigatie:
+	-Planetele?	
+
+
+	Stanga o bara de farmare:
+		Principale:
+			-Oxigenul
+			-Energie	
+			-Mancare
+		Secundare:
+			-fier
+			
+
+
+
+
+	Dreapta o planeta:
+	-Poti da zoom
+	-E formata din hexagoane ca la catan pe care omuletul sa se miste
+	-Sa fie diverse chalange-uri
+	-Se misca cate o patratica pe rand
+	-Pentru a traversa cate o patratica se consuma cate o anumita resursa
+
+
+
+	Scopul si misiunea:
+	-Omul pleaca de pe paman pentru a descoperi noi elemente pentru supravietuire 
