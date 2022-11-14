@@ -144,7 +144,7 @@ body {
 .tabel{
   position:absolute;
   top:7%;
-  left: 5%;
+  left: 2%;
   width: 600px;
   height: 800px;
   border: 15px double #7A7967;
@@ -222,3 +222,6 @@ body {
   height: 20px;
   background-color: aquamarine;
 }
+
+
+

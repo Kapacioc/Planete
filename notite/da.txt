@@ -1,3 +1,14 @@
+un astronaut pe luna
+
+A lost man
+ 
+SCopu jocului: un on pierdut incearca sa si gaseasca drumul
+                 spre casa in spatiul infinit si necercetat.
+
+Povestea jocului: Steav un barbat de 40 de ani se trezeste 
+                izgonit in spatiu.Confuzia in care se trezeste ii taie din puterei 
+
+
 		Joc cu planete
 
 	Sus o bara de navigatie:
@@ -18,7 +29,6 @@
 
 	Dreapta o planeta:
 	-Poti da zoom
-	-E formata din hexagoane ca la catan pe care omuletul sa se miste
 	-Sa fie diverse chalange-uri
 	-Se misca cate o patratica pe rand
 	-Pentru a traversa cate o patratica se consuma cate o anumita resursa
