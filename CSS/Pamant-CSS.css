@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
     --color:#;
 
@@ -222,3 +223,232 @@ body {
   height: 20px;
   background-color: aquamarine;
 }
+=======
+:root{
+    --color:#;
+
+
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+ 
+ /*  background-repeat: no-repeat; */
+  scroll-behavior: smooth;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+.back{
+  background-image: url(../IMG/stele.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  /* width: 70%%; */
+  height: 100vh;
+}
+
+
+.lvl{
+  position: absolute;
+  width: 800px;
+  height: 50px ;
+  left:49%;
+  bottom: 91%;
+  border: 2px solid red;
+}
+
+.container-lvl{
+  display: grid;
+  border: 1px solid #fff;
+  grid-template-areas: 'one tow tre four five six seven eight nine ten';
+  height: 100%;
+}
+
+
+
+#lvl .romb{
+  position: relative;
+  width: 23px;
+  height: 23px;
+  background-color: #fff;
+  top: 25%;
+  left: 5%;
+  transform: rotate(67.5deg) skewX(45deg) scaleY(0.7);
+
+}
+
+#lvl .bara_romb{
+  position: relative;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  left: 32%;
+}
+
+#container {
+  position: absolute;
+  left: 70%;
+  top: 50%;
+}
+
+.box-area {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 3s forwards  ;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    transform: rotate3d(-1.5, -1, 2, -0.18turn);
+    ;
+  }
+}
+
+.box {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border: 4px solid rgb(49, 48, 46);
+}
+
+
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    'one two three for ';
+  grid-gap: 0px;
+  padding: 0px;
+
+}
+
+.grid-container>div {
+  border: 5px solid rgb(49, 48, 46);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+
+/* BOX POSITION */
+#box-front {
+  transform: translateX(-200px) translateY(-200px) translateZ(200px);
+}
+
+#box-left {
+  transform: translateY(-200px) translateX(-400px)      rotateY(90deg);
+}
+
+#box-bottom {
+  transform: translateX(-200px) rotateX(90deg);
+}
+/* BOX COLOR */
+
+.bg-left {
+  background: rgba(148, 144, 141 , 0.7);
+}
+
+.bg-bottom {
+
+  background: rgba(148, 144, 141 ,0.7) ;
+}
+
+.bg-front {
+  background: rgb(218, 217, 215);
+}
+
+
+.tabel{
+  position:absolute;
+  top:7%;
+  left: 2%;
+  width: 600px;
+  height: 800px;
+  border: 15px double #7A7967;
+  background-color: #32322A;
+}
+
+.randuri{
+  width: 570px ;
+  height: 200px;
+  
+  
+}
+
+.sloturi {
+  
+  display:grid;
+  grid-template-areas: 'one';
+  padding: 0;
+  border-bottom: 3px solid #7A7967;
+  
+  height: 100%;
+}
+.sloturi:last-child{
+  border-bottom: none;
+}
+
+.sloturi input{
+  color:#fff;
+  background-color: inherit;
+  border: none;
+  width: 30px;
+  position: relative;
+  left: 90%;
+  bottom:10.5vh;
+  font-size: 22px;
+}
+
+.sloturi #imagine{
+  width: 65px;
+  height: 65px;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: relative;
+  top: 55%;
+  left: 6%;
+}
+
+.sloturi #dreptunghi{
+  width:250px ;
+  height: 25px;
+  border: 2px solid #fff;
+  position: relative;
+  left: 35%;
+  bottom: 40%;
+}
+
+.sloturi #buton{
+  width: 200px;
+  height: 25px;
+  position: relative;
+  left: 42%;
+  bottom: 50%;
+  background-color: #C4C2A5;
+
+  width: 30%;
+  height: 100%;
+  border:4px solid black;
+  border-radius: 25%;
+}
+
+
+#forward{
+  border: #32322A;
+  width: 20px;
+  height: 20px;
+  background-color: aquamarine;
+}
+
+
+
+>>>>>>> 11f4fba7f575201f003669100ef8a02586c9bd6c
