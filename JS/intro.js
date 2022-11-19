@@ -3,7 +3,7 @@ var container = document.querySelector(".textBox")
 container.classList.add("apare");
 
 var speeds = {
-    pause:500,
+    pause:100,
     slow:100,
     normal:70,
     fast:40
@@ -23,6 +23,8 @@ var textLines = [
 var characters = [];
 
 textLines.forEach((line, index) => {
+    
+
 
     if(index < textLines.length -1){
         line.String +=  " ";
@@ -41,6 +43,7 @@ textLines.forEach((line, index) => {
 
     })
 
+    
 })
 
 function revealOneCharacter(list) {
