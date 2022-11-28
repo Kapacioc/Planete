@@ -11,18 +11,26 @@ var speeds = {
 
 
 var textLines = [
-    {String: "Hello stranger",speed:speeds.normal}, 
+   [ {String: "Ohh lost one",speed:speeds.normal}, 
     {String: "...", speed:speeds.slow},
-    {String: "propozitia a 2 a", speed:speeds.normal},
-    {String: "propozitia a 3 a",speed:speeds.fast},
-    {String:"",speed:speeds.pause},
+    ],
+
+    [{String: "I waited a long time to meet you.", speed:speeds.normal}],
+    
+    [{String: "It is so pleasant that you finally appeared. Our solar system is very great full.",speed:speeds.fast}],
+
+    [{String:"We are in great danger. Some planets are strike by a disease and it is spreading really fast.",speed:speeds.pause}],
+
+    [{String:"Your job is to STOP the disease from spreading on all of us. I wish you good luck on your jurney",speed:speeds.pause}]
+
+    
 
 ]
 
 
 var characters = [];
 
-textLines.forEach((line, index) => {
+textLines.forEach(([line], index) => {
     
 
 
